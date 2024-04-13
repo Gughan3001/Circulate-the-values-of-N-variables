@@ -23,12 +23,17 @@ End the program.
 # Register number : 212223240043
 
 def circulate():
+
     l=eval(input())
+    
     n=int(input())
+    
     l=l[n:]+l[:n]
+    
     print("After circulating the values are:",l)
 
 ## Output:
-![alt text](<Screenshot 2024-04-09 112708.png>)
+![Screenshot 2024-04-09 112708](https://github.com/Gughan3001/Circulate-the-values-of-N-variables/assets/166888632/4fa2af37-ce8f-417a-aa68-70ddc0ebc0ed)
+
 ## Result:
 Thus the program is written and executed successfully.
